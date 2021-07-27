@@ -1,0 +1,11 @@
+<nav class="navbar">
+    <div class="btn-group" >
+        <button *ngFor='let b of btn' class="btn-group__item"
+            id="{{b.name}}" (click)=addCategory(b.name)>
+            {{b.name}}
+        </button>
+    </div>
+</nav>
+
+
+        
